@@ -21,6 +21,8 @@
  * THE SOFTWARE.
  */
 
+#pragma warning disable
+
 using System;
 using System.Linq;
 
@@ -335,3 +337,4 @@ namespace FixedPointy {
 		}
 	}
 }
+#pragma warning restore

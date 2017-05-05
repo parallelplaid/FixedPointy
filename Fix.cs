@@ -20,6 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+#pragma warning disable
 
 using System;
 using System.Text;
@@ -189,3 +190,4 @@ namespace FixedPointy {
 		}
 	}
 }
+#pragma warning restore
