@@ -116,5 +116,9 @@ namespace FixedPointy {
 		public override string ToString () {
 			return string.Format("({0}, {1}, {2})", _x, _y, _z);
 		}
+
+        public Fix SqrMagnitude () {
+            return Dot(this);
+        }
 	}
 }

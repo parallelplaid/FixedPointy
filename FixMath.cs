@@ -30,6 +30,8 @@ namespace FixedPointy {
 	public static partial class FixMath {
 		public static readonly Fix PI;
 		public static readonly Fix E;
+        public static readonly Fix Rad2Deg;
+        public static readonly Fix Deg2Rad;
 		static Fix _log2_E;
 		static Fix _log2_10;
 		static Fix _ln2;
@@ -46,6 +48,8 @@ namespace FixedPointy {
 
 			PI = _piConst;
 			E = _eConst;
+            Rad2Deg = 360 / (PI * 2);
+            Deg2Rad = (PI * 2) / 360;
 			_log2_E = _log2_EConst;
 			_log2_10 = _log2_10Const;
 			_ln2 = _ln2Const;
